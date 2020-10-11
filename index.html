@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <!--
   Licensed to the Apache Software Foundation (ASF) under one
   or more contributor license agreements.  See the NOTICE file
@@ -42,6 +42,7 @@
             <ul class="right hide-on-med-and-down">
               <li><a class="ghost-white-hover" href="#about">About</a></li>
               <li><a class="ghost-white-hover" href="#contribute">Contribute</a></li>
+              <li><a class="ghost-white-hover" href="#downloads">Downloads</a></li>
               <li><a class="ghost-white-hover" href="#resources">Resources</a></li>
               <li><a class="ghost-white-hover" href="#reference">Reference</a></li>
             </ul>
@@ -49,6 +50,7 @@
               <li class="side-nav-heading">Apache Fineract</li>
               <li><a class="jet-hover" href="#about" onclick="closeSideNav()">About</a></li>
               <li><a class="jet-hover" href="#contribute" onclick="closeSideNav()">Contribute</a></li>
+              <li><a class="jet-hover" href="#downloads" onclick="closeSideNav()">Downloads</a></li>
               <li><a class="jet-hover" href="#resources" onclick="closeSideNav()">Resources</a></li>
               <li><a class="jet-hover" href="#reference" onclick="closeSideNav()">Reference</a></li>
             </ul>
@@ -61,85 +63,87 @@
     <section class="section">
       <h3 class="center-align">Platform for Digital Financial Services</h3>
       <p class="flow-text justify-align">
-        Apache Fineract (&#92;&#8217;f&#299;n-,&#1241;-,rakt&#92;) is an open source system for core banking as a platform. Fineract provides a reliable, robust, and affordable solution for entrepreneurs, financial institutions, and service providers to offer financial services to the world’s 2 billion underbanked and unbanked.
+        Apache Fineract (&#92;&#8217;f&#299;n-,&#1241;-,rakt&#92;) is open source software for financial services. 
+      </p>
+      <p class="flow-text justify-align">
+        Fineract provides a reliable, robust, and affordable solution
+        for entrepreneurs, financial institutions, and service providers
+        to offer financial services to the world’s 2 billion underbanked and unbanked.
+        Fineract is aimed at innovative mobile and cloud-based solutions,
+        and enables digital transaction accounts for all.
+      </p>
+	<p class="flow-text justify-align">Fineract 1.x is a mature platform with open APIs,
+    while Fineract CN is a cloud native, microservice architecture
+    also supporting open banking APIs.
       </p>
       <div class="divider"></div>
     </section>
     <section id="about" class="section">
       <h3 class="center-align">About</h3>
       <p class="flow-text justify-align">
-        Apache Fineract can be deployed in any environment: cloud or on-premise, on or offline, mobile or PC; it’s extensible enough to support any organizational type or delivery channel, and flexible enough to support any product, service, or methodology. For any organization, big or small, it will provide the client data management, loan and savings portfolio management, integrated real time accounting, and social and financial reporting needed to bring digital financial services in a modern connected world.
+        Apache Fineract can be deployed in any environment:
+        cloud or on-premise.  It can support front end interfaces on or offline, mobile or PC.
+        It’s extensible enough to support any organizational type or delivery channel,
+        and flexible enough to support any product, service, or lending methodology.
+        For any organization, big or small, it provides
+        the client data management, loan and savings portfolio management, integrated real time accounting,
+        and social and financial reporting needed
+        to bring digital financial services to a modern connected world.
       </p>
-      <article>
-        <h4>Rapid Product Creation</h4>
-        <p class="flow-text justify-align">
-          Our flexible product creation engine allows you to instantly create, configure and roll out brand new products across any of your branches. You can respond to client demand in no time. You can also configure your product mix to ensure clients can only take on a responsible amount of loans at one time.
-        </p>
-      </article>
-      <article>
-        <h4>Multiple Lending Methodologies</h4>
-        <p class="flow-text justify-align">
-          The Apache Fineract API supports
-        </p>
-        <ul class="flow-text justify-align">
-          <li class="circle-list-style">individual lending,</li>
-          <li class="circle-list-style">Grameen Joint Liability Group lending,</li>
-          <li class="circle-list-style">multi-tranche loans,</li>
-          <li class="circle-list-style">standing instructions for automated payments,</li>
-          <li class="circle-list-style">and co-op lending.</li>
-        </ul>
-        <p class="flow-text justify-align">
-          For group lending, we have full functionality to configure and manage groups including client, group, center information and hierarchy.
-        </p>
-      </article>
-      <article>
-        <h4>Full Range of Deposit Products</h4>
-        <p class="flow-text justify-align">
-          Savings is one of the most proven services in the financial inclusion toolkit. Apache Fineract supports your organization as it moves beyond basic passbook savings with support for
-        </p>
-        <ul class="flow-text justify-align">
-          <li class="circle-list-style">fixed (term) deposits,</li>
-          <li class="circle-list-style">recurring deposits,</li>
-          <li class="circle-list-style">and current accounts.</li>
-        </ul>
-        <p class="flow-text justify-align">
-          Your client can benefit from a fluid mix of deposit and credit products to help them store up the funds to resist shocks and grow income needed to make larger purchases and investments.
-        </p>
-      </article>
-      <article>
-        <h4>Interest, Penalties, and Fees</h4>
-        <p class="flow-text justify-align">
-          Apache Fineract supports:
-        </p>
-        <ul class="flow-text justify-align">
-          <li class="circle-list-style">calculation of interest balance on daily or average daily balance with the ability to specify the compounding period daily or monthly</li>
-          <li class="circle-list-style">flat or percentage-based fees that can be applied and collected on a specific due date</li>
-          <li class="circle-list-style">minimum opening balance and a locking period that can be defined in days, weeks, months, and years</li>
-        </ul>
-      </article>
+	  <p class="flow-text justify-align">
+      Fineract 1.x compares well to other core banking systems
+      and draws from requirements in credit unions, microfinance institutions, and small non-banking financial institutions.
+      Features include
+      flexible product configuration,
+      KYC documentation support,
+      business rule sets,
+      payment transactions,
+      and portfolio management.
+      It includes an open API that dates to 2011 and is deployed in relatively high transaction
+      volume environments.
+    </p>
+		<p class="flow-text justify-align">
+      Fineract CN operates on the principle that financial services are an innovative space
+      and so each fineract microservice encapsulates a domain that can be combined
+      with other microservices to create new platform offerings.
+      Fineract CN microservices can be combined to create new software platforms for
+      digital financial service providers.
+      Fineract CN is still in its early days, but preliminary tests have shown that a
+      simple single-instance laptop deployment of Fineract CN can process over
+      1000 transactions/second.
+      Fineract CN also includes a fully Apache-licensed backoffice UI.
+	  </p>
+	  <p class="flow-text justify-align">
+      Fineract 1.x began incubation at Apache in December 2015 and is used by
+      an active community of companies
+      who build solutions for both financial inclusion and fintech innovation.
+    </p>
+
       <div class="divider"></div>
     </section>
     <section id="contribute" class="section">
       <h3 class="center-align">Contribute</h3>
       <p class="flow-text justify-align">
-        The Apache Fineract community welcomes contributors who want to support the Fineract technology. Our community builds everything from this website, from the Fineract code to documentation and best practices information.
+        The Apache Fineract community welcomes contributors who want to support the
+        Fineract technology. Our community builds everything from this website,
+        to the Fineract code to documentation and best practices information.
       </p>
       <p class="flow-text justify-align">
-        We especially welcome additions and corrections to the documentation, wiki, and website to improve the user experience. Bug reports and fixes and additions to the Apache Fineract code are welcome. Helping users learn best practices also earns good karma in our community.
+        We especially welcome additions and corrections to the
+        documentation, wiki, and website to improve the user experience.
+        Bug reports and fixes and additions to the Apache Fineract code are welcome.
+        Helping users learn best practices also earns good karma in our community.
       </p>
       <article>
         <h4>Mailing Lists</h4>
-        <h5>Users</h5>
+        <h5>Users &amp; Developers</h5>
         <p class="flow-text">
-          <i>Perfect if you build on top of or deploy Apache Fineract.</i><br/>
-          To subscribe, send a blank email to <a href="mailto:user-subscribe@fineract.apache.org">user-subscribe@fineract.apache.org</a>.<br/>
-          You can also <a href="http://markmail.org/search/?q=list%3Aorg.apache.fineract.user+order%3Adate-backward" target="_blank">read the archives</a>.
-        </p>
-        <h5>Developers</h5>
-        <p class="flow-text">
-          <i>If you are building contributions and modifications to Apache Fineract this is the list for you.</i><br/>
+          <i>If you use, build on top of, deploy or are building contributions and modifications to Apache Fineract, this is the list for you.</i><br/>
           To subscribe, send a blank email to <a href="mailto:dev-subscribe@fineract.apache.org">dev-subscribe@fineract.apache.org</a>.<br/>
-          You can also <a href="http://markmail.org/search/?q=list%3Aorg.apache.fineract.dev+order%3Adate-backward" target="_blank">read the archives</a>.
+          To <b>un</b>subscribe later, just send a blank email to <a href="mailto:dev-unsubscribe@fineract.apache.org">dev-unsubscribe@fineract.apache.org</a>.<br/>
+          You can also read the archives 
+		<a href="https://lists.apache.org/list.html?dev@fineract.apache.org" target="_blank">on lists.apache.org</a>
+		or <a href="http://markmail.org/search/?q=list%3Aorg.apache.fineract.dev+order%3Adate-backward" target="_blank">on MarkMail.org</a>.
         </p>
         <h5>Commits</h5>
         <p class="flow-text">
@@ -150,14 +154,101 @@
       </article>
       <div class="divider"></div>
     </section>
+    <section id="downloads" class="section">
+      <h3 class="center-align">Downloads</h3>
+      <p class="flow-text justify-align">The below table lists mirrored release artifacts and their associated hashes and signatures available at apache.org.
+        The keys used to sign releases are published at <a href="https://www.apache.org/dist/fineract/KEYS">KEYS</a>.
+        Instructions for verifying your mirrored downloads are located <a href="https://www.apache.org/dyn/closer.cgi#verify">here</a>.
+      </p>
+      <article>
+        <table class="responsive-table striped">
+          <thead>
+          <tr>
+            <th>Version</th>
+            <th>Release Notes</th>
+            <th>Binary Download</th>
+            <th>Source Download</th>
+          </tr>
+          </thead>
+
+          <tbody>
+          <tr>
+            <td>1.4.0</td>
+            <td><a href="https://cwiki.apache.org/confluence/display/FINERACT/1.4.0+-+Apache+Fineract">Apache Fineract 1.4.0</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.4.0/apache-fineract-1.4.0-binary.tar.gz">apache-fineract-1.4.0-binary.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.4.0/apache-fineract-1.4.0-binary.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.4.0/apache-fineract-1.4.0-binary.tar.gz.sha512">sha512</a>)</td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.4.0/apache-fineract-1.4.0-src.tar.gz">apache-fineract-1.4.0-src.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.4.0/apache-fineract-1.4.0-src.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.4.0/apache-fineract-1.4.0-src.tar.gz.sha512">sha512</a>)
+            </td>
+          </tr>
+          <tr>
+            <td>1.3.0</td>
+            <td><a href="https://cwiki.apache.org/confluence/display/FINERACT/1.3.0+-+Apache+Fineract">Apache Fineract 1.3.0</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.3.0/apache-fineract-1.3.0-binary.tar.gz">apache-fineract-1.3.0-binary.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.3.0/apache-fineract-1.3.0-binary.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.3.0/apache-fineract-1.3.0-binary.tar.gz.sha512">sha512</a>)</td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.3.0/apache-fineract-1.3.0-src.tar.gz">apache-fineract-1.3.0-src.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.3.0/apache-fineract-1.3.0-src.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.3.0/apache-fineract-1.3.0-src.tar.gz.sha512">sha512</a>)
+            </td>
+          </tr>
+          <tr>
+            <td>1.2.0</td>
+            <td><a href="https://cwiki.apache.org/confluence/display/FINERACT/1.2.0+-+Apache+Fineract">Apache Fineract 1.2.0</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.2.0/apache-fineract-1.2.0-binary.tar.gz">apache-fineract-1.2.0-binary.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.2.0/apache-fineract-1.2.0-binary.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.2.0/apache-fineract-1.2.0-binary.tar.gz.sha512">sha512</a>)</td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.2.0/apache-fineract-1.2.0-src.tar.gz">apache-fineract-1.2.0-src.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.2.0/apache-fineract-1.2.0-src.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.2.0/apache-fineract-1.2.0-src.tar.gz.sha512">sha512</a>)
+            </td>
+          </tr>
+          <tr>
+            <td>1.1.0</td>
+            <td><a href="https://cwiki.apache.org/confluence/display/FINERACT/1.1.0+-+Apache+Fineract">Apache Fineract 1.1.0</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz">apache-fineract-1.1.0-binary.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz.sha512">sha512</a>)</td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz">apache-fineract-1.1.0-src.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz.sha512">sha512</a>)
+            </td>
+          </tr>
+          <tr>
+            <td>1.0.0</td>
+            <td><a href="https://cwiki.apache.org/confluence/display/FINERACT/1.0.0+-+Apache+Fineract">Apache Fineract 1.0.0</a></td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.0.0/apache-fineract-1.0.0-binary.tar.gz">apache-fineract-1.0.0-binary.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.0.0/apache-fineract-1.0.0-binary.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.0.0/apache-fineract-1.0.0-binary.tar.gz.sha">sha512</a>)</td>
+            <td><a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.0.0/apache-fineract-1.0.0-src.tar.gz">apache-fineract-1.0.0-src.tar.gz</a>
+              (<a href="https://www.apache.org/dist/fineract/1.0.0/apache-fineract-1.0.0-src.tar.gz.asc">asc</a>,
+              <a href="https://www.apache.org/dist/fineract/1.0.0/apache-fineract-1.0.0-src.tar.gz.sha">sha512</a>)
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </article>
+      <p class="flow-text justify-align">If you are looking for an old release that is not present here or on the mirror, please check the
+        <a href="http://archive.apache.org/dist/fineract/">Apache archives</a>.</p>
+      <div class="divider"></div>
+    </section>
     <section id="resources" class="section">
       <h3 class="center-align">Resources</h3>
       <article>
-        <h4>Download</h4>
+        <h4>Frequently Used Links:</h4>
         <p class="flow-text justify-align">
-          Source download: <a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz">apache-fineract-1.1.0-src.tar.gz</a> (<a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz.asc">asc</a>, <a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-src.tar.gz.sha512">sha512</a>)<br/>
-          Binary download: <a href="https://www.apache.org/dyn/closer.cgi?path=/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz">apache-fineract-1.1.0-binary.tar.gz</a> (<a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz.asc">asc</a>, <a href="https://www.apache.org/dist/fineract/1.1.0/apache-fineract-1.1.0-binary.tar.gz.sha512">sha512</a>)<br/>
-          View the <a href="https://github.com/apache/fineract/blob/develop/CHANGELOG.md" target="_blank">Changelog</a> to learn what's been added in the newest release.
+        <a href="https://issues.apache.org/jira/projects/FINERACT">Jira</a><br/>
+        Issue tracking
+      </p>
+      <p class="flow-text justify-align">
+        <a href="https://cwiki.apache.org/confluence/display/FINERACT/Fineract+Home">Confluence</a><br/>
+        Project management and documentation
+        </p>
+        <p class="flow-text justify-align">
+        <a href="https://cwiki.apache.org/confluence/display/FINERACT/Getting+Started+Docs">Getting Started Guide</a>
+        (For Fineract 1.x)
         </p>
       </article>
       <article>
@@ -178,8 +269,12 @@
       <article>
         <h4>Repositories</h4>
         <p class="flow-text justify-align">
-          <a href="https://github.com/apache/incubator-fineract" target="_blank">Apache Fineract</a><br/>
+          <a href="https://github.com/apache/fineract" target="_blank">Apache Fineract</a><br/>
           Here you will find the source code for Apache Fineract.
+        </p>
+		<p class="flow-text justify-align">
+          <a href="https://github.com/search?q=org%3Aapache+fineract-cn&unscoped_q=fineract-cn" target="_blank">Apache Fineract-CN</a><br/>
+          Here you will find the source code for Apache Fineract Cloud Native. Pre-release version. 
         </p>
         <p class="flow-text justify-align">
           <a href="https://github.com/apache/incubator-fineract-site" target="_blank">Web Site</a><br/>
@@ -204,7 +299,7 @@
         </p>
         <div class="divider divider-inverse"></div>
         <p class="flow-text center-align">
-          &copy; 2009 - 2018&nbsp;<a class="link-inverse" href="http://apache.org/" target="_blank">The Apache Software Foundation</a>. Licensed under the <a class="link-inverse" href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>.<br/>
+		&copy; 2009 - <span id="current-year">2020</span>&nbsp;<a class="link-inverse" href="http://apache.org/" target="_blank">The Apache Software Foundation</a>. Licensed under the <a class="link-inverse" href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>.<br/>
           Apache, and the Apache feather logo are trademarks of The Apache Software Foundation.<br/>
         </p>
       </section>
@@ -215,6 +310,7 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $(".button-collapse").sideNav({closeOnClick: true});
+      $("#current-year").text(new Date().getFullYear());
 
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
